@@ -1,6 +1,10 @@
+/*Nama      : Arifah Lailatul Isthi'anah*/
+/*Stambuk   : 13020210017*/
+/*Kelas     : B1*/
+
 import java.util.Scanner;
 
-public class Hitung4DigitTerakhirStambukAnda {
+public class Hitung0017 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
