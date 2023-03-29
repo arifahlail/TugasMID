@@ -1,3 +1,7 @@
+/*Nama          : Arifah Lailatul Isthi'anah*/
+/*Stambuk       : 13020210017*/
+/*Kelas         : B1*/
+
 interface A {
     public void aaa();
 }
