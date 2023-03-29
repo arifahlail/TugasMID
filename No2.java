@@ -63,18 +63,18 @@ class Balok extends PersegiPanjang {
 class PersegiPanjang {
     int p, l;  
     public PersegiPanjang() {
-        // berisi nilai panjang=30 & lebar=20
+        //m.nilai panjang=30 & lebar=20
         this.p = 30;
         this.l = 20;
     }
 
     public PersegiPanjang(int p, int l) {
-        // berisi nilai pada saat runtime p <- p, l <- l
+        //n. nilai pada saat runtime p <- p, l <- l
         this.p = p;
         this.l = l;
     }
     
-    // buat getter setter class PersegiPanjang
+    // o. Membuat getter setter class PersegiPanjang
     public int getA() {
         return p;
     }
@@ -89,11 +89,12 @@ class PersegiPanjang {
         this.l = l;
     }
     public int luas() {
-        // fungsi untuk menghitung luas persegi panjang : p x l
+        //p. fungsi untuk menghitung luas persegi panjang : p x l
         return
 		p*l;
 	}
 public int keliling(){
+	//q. Fungsi menghitung keliling persegi panjang : 2x (p+l)
     return 2 * (p + l);
 }
 }
